@@ -10,7 +10,8 @@ end
 
 def assign_rooms(array)
   arr = []
-  array.each_with_index do |person, room|
-    puts "Hello #{person}! You'll be assigned to room #{room.to_i}!"
+  array.map_with_index do |person, room|
+    arr << "Hello #{person}! You'll be assigned to room #{room.to_i}!"
+    arr
   end 
 end
