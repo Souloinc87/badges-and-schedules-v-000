@@ -16,8 +16,7 @@ def assign_rooms(array)
   arr
 end
 
-def printer(names)
-people = batch_badge_creator(names)
-names[people.first]
+def printer
+  
 
 end
