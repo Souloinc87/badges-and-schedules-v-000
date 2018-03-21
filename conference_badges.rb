@@ -18,5 +18,5 @@ end
 
 def printer(array)
  people = batch_badge_creator(array)
- puts people[0]
+ puts people.each  
 end
