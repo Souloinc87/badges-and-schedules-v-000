@@ -21,4 +21,8 @@ def printer(array)
  people.each do |attendees|
    puts attendees
  end
+ room = assign_rooms(array)
+ room.each do |number|
+   puts number
+ end 
 end
