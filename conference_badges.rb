@@ -19,5 +19,5 @@ end
 def printer(names)
 people = badge_maker(names)
 batch_badge_creator(names)
-puts people.first
+puts people
 end
