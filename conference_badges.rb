@@ -10,9 +10,8 @@ end
 
 def assign_rooms(array)
   counter = 1
-  array.map do |list|
+  array.each do |list|
     puts "Hello #{list}! You'll be assigned to room #{counter}!"
     counter += 1
-    list 
   end
-end 
+end
